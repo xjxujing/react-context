@@ -1,19 +1,31 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.navBar {
+.navBar h1 {
+  font-weight: 600;
+}
+
+.navItems {
   max-width: 400px;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
 }
 
 .navBar li {
   flex: 1;
 }
+
+.bookList {
+  padding: 20px;
+  text-align: center;
+}
+
+.bookList > li {
+  line-height: 3rem;
+  text-align: center;
+}
+
